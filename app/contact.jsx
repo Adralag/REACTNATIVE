@@ -17,7 +17,7 @@ const ContactPage = () => {
             </View>
             
             <View style={styles.mainContent}>
-                <Text style={styles.mainTitle}>Contact Me</Text>
+                <Text style={styles.mainTitle}>Contact Us</Text>
 
                 <View style={styles.formContainer}>
                     <TextInput 
