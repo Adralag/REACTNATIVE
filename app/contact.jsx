@@ -1,10 +1,10 @@
-import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-native'
+import { StyleSheet, Text, View, TextInput, TouchableOpacity, Alert } from 'react-native'
 import React from 'react'
 import { Link } from 'expo-router'
 
 const ContactPage = () => {
     const handleSubmit = () => {
-        alert('Form Submitted! (Functionality not yet implemented)');
+        Alert.alert('Form Submitted!');
     };
 
     return (
